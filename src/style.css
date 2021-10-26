@@ -1,0 +1,14 @@
+body {
+  background-color: lightgray;
+}
+
+#menu-bar{
+background-color: rgb(7, 106, 29);
+display: flex;
+justify-content: space-evenly;
+}
+
+.img-logo {
+  height: 50px;
+  width: 50px;
+}
