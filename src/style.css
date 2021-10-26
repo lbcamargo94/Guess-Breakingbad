@@ -71,6 +71,10 @@ i {
   background-color: rgba(255, 255, 255, 0.35);
   border: 0.1rem solid rgba(245, 245, 245, 0.25);
   border-radius: 0.5rem;
+  height: 6rem;
+  padding: 1rem;
+  text-align: center;
+  width: 40rem;
 }
 
 .game-figure {
@@ -80,9 +84,6 @@ i {
   border-radius: 0.5rem;
   display: flex;
   height: 30rem;
-}
-
-.game-figure {
   margin: 2rem;
   max-width: 20rem;
   padding: 0.3rem;
@@ -91,24 +92,14 @@ i {
 }
 
 .img_question {
-  height:30rem;
-  padding: 0.3rem;
-  background-color: white;
-  border: 0.1rem solid rgba(245, 245, 245, 0.61);
-  border-radius: 0.5rem;
-  border: 1px solid black;
-  overflow: hidden;
+  height: 80%;
+  width: 100%;
 }
 
 .img_question_hiden {
   filter: blur(3px) brightness(111%) contrast(182%) saturate(210%) drop-shadow(0px 20px 10px #000000);
 }
 
-.img_center {
-  max-width: 40rem;
-  overflow: hidden;
-  max-height: 10rem;
-}
 .game-answers {
   display: flex;
   flex-direction: row;
