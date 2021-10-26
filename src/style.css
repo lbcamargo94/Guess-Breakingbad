@@ -1,5 +1,8 @@
 body {
   background-color: rgba(247, 252, 251, 0.89);
+  background-image: url('../image/pngwing.com\ \(2\).png');
+  background-size: ;
+  background-repeat: no-repeat,
 }
 
 #menu-bar{
@@ -44,18 +47,32 @@ footer {
   height:6rem;
   border-radius: 0.5rem;
   border: 1px solid black;
+  text-align: center;
+  padding: 1rem;
 }
 
 .game-figure {
+  max-width: 20rem;
   margin: 2rem;
   width: 20rem;
   height:30rem;
+  padding: 0.3rem;
   background-color: white;
   border: 0.1rem solid rgba(245, 245, 245, 0.61);
   border-radius: 0.5rem;
   border: 1px solid black;
+  overflow: hidden;
 }
 
+.img_question_hiden {
+  filter: blur(3px) brightness(111%) contrast(182%) saturate(210%) drop-shadow(0px 20px 10px #000000);
+}
+
+.img_center {
+  max-width: 40rem;
+  overflow: hidden;
+  max-height: 10rem;
+}
 .game-answers {
   display: flex;
   flex-direction: row;
