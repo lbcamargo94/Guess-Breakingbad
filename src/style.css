@@ -12,10 +12,12 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   font-family: 'Poppins', sans-serif;
+  background-blend-mode: luminosity;
 }
 
 #menu-bar {
   background-color: rgb(7, 106, 29);
+  color: rgba(247, 252, 251, 0.89);
   display: flex;
   font-family: breakingbad;
   justify-content: space-between;
@@ -97,7 +99,7 @@ i {
 }
 
 .img_question_hiden {
-  filter: blur(3px) brightness(111%) contrast(182%) saturate(210%) drop-shadow(0px 20px 10px #000000);
+  /* filter: blur(3px) brightness(111%) contrast(182%) saturate(210%) drop-shadow(0px 20px 10px #000000); */
 }
 
 .game-answers {
