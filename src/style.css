@@ -1,8 +1,9 @@
 body {
   background-color: rgba(247, 252, 251, 0.89);
   background-image: url('../image/pngwing.com\ \(2\).png');
-  background-size: ;
-  background-repeat: no-repeat,
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 #menu-bar{
