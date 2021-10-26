@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Markazi+Text&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Zen+Antique+Soft&display=swap');
+
+@font-face {
+  font-family: breakingbad;
+  src: url('./font/Breaking-Bad.otf');
+}
+
+body {
+  background-color: rgba(247, 252, 251, 0.89);
+  background-image: url('../image/pngwing.com\ \(2\).png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Poppins', sans-serif;
+  background-blend-mode: luminosity;
+}
+
+#menu-bar {
+  background-color: rgb(7, 106, 29);
+  color: rgba(247, 252, 251, 0.89);
+  display: flex;
+  font-family: breakingbad;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+main {
+  align-self: stretch;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  height: auto;
+  justify-content: center;
+  padding: 2rem;
+  width: 100%;
+}
+
+footer {
+  align-items: flex-end;
+  align-self: flex-end;
+  background-color: rgb(7, 106, 29);
+  bottom: 0;
+  display: flex;
+  /* height: 6vh; */
+  justify-content: center;
+  padding: 1rem;
+}
+
+a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+a:hover {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+i {
+  margin: 0 5px;
+}
+
+.social-media {
+  list-style: none;
+}
+
+.img-logo {
+  height: 50px;
+  width: 50px;
+}
+
+.game-questions {
+  background-color: rgba(255, 255, 255, 0.35);
+  border: 0.1rem solid rgba(245, 245, 245, 0.25);
+  border-radius: 0.5rem;
+  height: 6rem;
+  padding: 1rem;
+  text-align: center;
+  width: 40rem;
+}
+
+.game-figure {
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.35);
+  border: 0.1rem solid rgba(245, 245, 245, 0.25);
+  border-radius: 0.5rem;
+  display: flex;
+  height: 30rem;
+  margin: 2rem;
+  max-width: 20rem;
+  padding: 0.3rem;
+  overflow: hidden;
+  width: 20rem;
+}
+
+.img_question {
+  height: 80%;
+  width: 100%;
+}
+
+.img_question_hiden {
+  /* filter: blur(3px) brightness(111%) contrast(182%) saturate(210%) drop-shadow(0px 20px 10px #000000); */
+}
+
+.game-answers {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 40rem;
+}
+
+.answers {
+  margin: 0.5rem;
+  padding: 1rem;
+  width: 18rem;
+}

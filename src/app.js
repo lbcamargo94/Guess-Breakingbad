@@ -17,34 +17,25 @@ const imgRandom = async() => {
   fetchBbApi(`characters?name=${randomNamgesArr[sortNumber]}`)
   .then((data) => {
     const [ primeiro ] = data;
-    const section = document.querySelector('#container-quotes');
-    const img = document.createElement('img');
+    const img = document.querySelector('.img_question');
     img.src = primeiro.img;
     nameImage = primeiro.name;
-    section.appendChild(img);
     randomNamgesArr = [];
     section.style.display = 'inline';
   })
 }
 
-// Gera 4 nomes aleatórios e da appendChild na section
+// Gera o nome de 4 personagens aleatórios.
 const randomNames = async () => {
-  const container = document.querySelector('#container-quotes');
-  container.innerHTML = '';
-  container.style.display = 'none'
-
-  for(let index = 0; index < 4; index += 1) {
+  for(let index = 1; index <= 4; index += 1) {
     await fetchBbApi(`character/random`)
     .then((data) => {
       const [ primeiro ] = data
-      const container = document.querySelector('#container-quotes');
-      const texto = document.createElement('p')
-      texto.classList.add('resposta')
+      const texto = document.querySelector(`#answers${index}`)
       texto.addEventListener('click', verificaSeGanhou)
       texto.innerText = '';
       texto.innerText = primeiro.name;
       randomNamgesArr.push(primeiro.name)
-      container.appendChild(texto);
     })
   }
   return randomNamgesArr;
