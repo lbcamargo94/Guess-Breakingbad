@@ -1,14 +1,72 @@
 body {
-  background-color: lightgray;
+  background-color: rgba(247, 252, 251, 0.89);
 }
 
 #menu-bar{
 background-color: rgb(7, 106, 29);
 display: flex;
 justify-content: space-evenly;
+padding: 1rem;
+}
+
+main {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-grow: 1;
+  align-self: stretch;
+  align-items: center;
+  padding: 2rem;
+}
+
+footer {
+  display: flex;
+  align-items: flex-end;
+  align-self: flex-end;
+  justify-content: center;
+  bottom: 0;
+  background-color: rgb(7, 106, 29);
+  height: 6vh;
+  padding: 1rem;
 }
 
 .img-logo {
   height: 50px;
   width: 50px;
+}
+
+.game-questions {
+  background-color: white;
+  border: 0.1rem solid rgba(245, 245, 245, 0.61);
+  width: 40rem;
+  height:6rem;
+  border-radius: 0.5rem;
+  border: 1px solid black;
+}
+
+.game-figure {
+  margin: 2rem;
+  width: 20rem;
+  height:30rem;
+  background-color: white;
+  border: 0.1rem solid rgba(245, 245, 245, 0.61);
+  border-radius: 0.5rem;
+  border: 1px solid black;
+}
+
+.game-answers {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 40rem;
+  flex-wrap: wrap;
+
+}
+
+.answers {
+  margin: 0.5rem;
+  width: 18rem;
+  padding: 1rem;
 }
